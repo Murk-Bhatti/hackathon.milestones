@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.resume-builder {
+    max-width: 600px;
+    text-align: center;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+input, textarea, select {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Resume Layouts */
+.layout1, .layout2, .layout3 {
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Layout styles */
+.layout1 {
+    font-family: Georgia, serif;
+    text-align: left;
+}
+
+.layout2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 2px solid #ddd;
+}
+
+.layout3 {
+    font-family: 'Courier New', monospace;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+/* Color schemes */
+.blue { color: #007bff; }
+.green { color: #28a745; }
+.red { color: #dc3545; }
+.black { color: #333;}
+
